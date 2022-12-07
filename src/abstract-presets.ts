@@ -1,6 +1,6 @@
 import { Class } from 'everyday-types'
 import { cheapRandomId, debugObjectMethods } from 'everyday-utils'
-import { createOrReturn, List } from 'immutable-list'
+import { createOrReturn, List } from '@stagas/immutable-list'
 
 // export type ItemDetail = Record<string, unknown>
 

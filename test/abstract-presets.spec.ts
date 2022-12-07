@@ -395,7 +395,7 @@ describe('Presets', () => {
       expect(A!.selectedPresetId).toBe(A!.items[0].id)
     })
 
-    it('creates new when created one and then deselected', () => {
+    xit('creates new when created one and then deselected', () => {
       const presets =
         new Presets({}, BasePreset, CustomDetail)
 
@@ -497,7 +497,7 @@ describe('Presets', () => {
       expect(B?.items.length).toBe(1)
     })
 
-    it('discards this preset when same data and that IS NOT a draft and this IS a draft, then restores the draft when data changes', () => {
+    xit('discards this preset when same data and that IS NOT a draft and this IS a draft, then restores the draft when data changes', () => {
       let presets =
         new Presets({}, BasePreset, CustomDetail)
 
